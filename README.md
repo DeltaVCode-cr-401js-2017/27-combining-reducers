@@ -33,10 +33,10 @@ Your package.json must include scripts for:
 ##### Expense
 * in this app, an expense should contain *(at least)* the following properties
   * `id` - a unique identifier
-  * `timestamp` - a date from when the category was created
-  * `name` - a string that is the name of the category
+  * `timestamp` - a date from when the expense was created
+  * `name` - a string that is the name of the expense
   * `categoryID` - an id that corresponds to an existing category
-  * `price` - a number that is the total amount of $ in the category
+  * `price` - a number that is the price of the expense
 
 ##### Redux
 ###### app reducer
