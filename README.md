@@ -1,4 +1,4 @@
-![cf](https://i.imgur.com/7v5ASc8.png) 27: Combining Reducers & Testing Actions/Reducers
+![DV](https://www.deltavcodeschool.com/wp-content/uploads/DeltaV.png) 27: Combining Reducers & Testing Actions/Reducers
 ======
 
 ## Submission Instructions
@@ -23,6 +23,11 @@
 * `src/main.js`
 * `src/style`
 * `src/style/main.scss`
+
+Your package.json must include scripts for:
+
+* `lint`
+* `test`
 
 #### Feature Tasks
 ##### Expense
@@ -51,6 +56,18 @@
 
 ###### store
 * in `lib/store.js` export a function that will return a redux store from your app reducer
+
+##### Tests
+
+Using [Jest](https://facebook.github.io/jest/)…
+
+###### Reducer
+* One test for initial state
+* One test for unknown `action.type`
+* At least one test per known `action.type`
+
+###### Action Creators
+* At least one test per action creator
 
 ##### Components
 * create the following component and structure it according to the diagram below:
@@ -82,6 +99,5 @@ App
 * should display the `name` and `price` of the component
 * should display an `ExpenseForm` that will enable the user to update the expense in the app state
 
-#### Test
-* test all of your action creators
-* test each reducer used in `combineReducers`
+#### Wireframe
+![expense-tracker](expense-tracker.png)
